@@ -2,8 +2,45 @@
 .hoot{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    justify-content: center;
+    gap: .5rem;
+    width: 100%;
+    height: auto;
 }
+
+.img-subhoot{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem; 
+    padding: 1rem 0;
+}
+.img-1{
+    width: 65rem;
+}
+/* .hoot-text p{
+    width: 100%;
+    animation: mover 20s linear infinite;
+    white-space: nowrap;
+}
+@keyframes mover{
+    from{ transform: translateX(100%); }
+    to{ transform: translateX(-100%) }
+} */
+@media screen and (max-width:1100px) {
+    .hoot-text{
+        width: 100%;
+    }
+    .hoot-text p{
+        width: 90%;
+    }
+}
+
+
 
 .img-skate-hoot{
     width: 100%;
@@ -24,4 +61,5 @@
     flex-direction: column;
     text-align: center;
     gap: 1rem;
+    color: black;
 }

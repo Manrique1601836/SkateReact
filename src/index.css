@@ -28,4 +28,21 @@ header{
 }
 main{
   margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+footer{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background-color: darkcyan;
+}
+header, main , footer{
+  overflow-x: hidden;
+}
+
+section{
+  scroll-margin-top: 6rem;
 }

@@ -1,0 +1,51 @@
+
+.infoskate{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+/* .infoskate .video-infoskate{
+
+} */
+.ttl-info{
+    width: 100%;
+    background-color: darkblue;
+}
+.infoskate .ttl-info h1{
+    color: whitesmoke;
+    padding: 1rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.infoskate p{
+    width: 30rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    color: black;
+    font-style: oblique;
+}
+.info-skate{
+    width: 100%;
+    height: 70dvh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+@media screen and (max-width:1100px) {
+    .video-infoskate{
+        width: 100%;
+    }
+
+    .video-infoskate p{
+        width: 100%;
+        display: grid;
+        place-items: center;
+        font-size: 1rem;
+    }
+}

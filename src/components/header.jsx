@@ -30,11 +30,11 @@ export default function Navbar(){
                         </label>
                         <nav className={cerrar ? "menu-open" : "menu-closed"}>
                             <ul>
-                                <li><a href="#">section</a></li>
-                                <li><a href="#">section</a></li>
-                                <li><a href="#">section</a></li>
-                                <li><a href="#">section</a></li>
-                                <li><a href="#">section</a></li>
+                                <li><a href="#info-skate">Guía Inicial</a></li>
+                                <li><a href="#setup-skater">Setup</a></li>
+                                <li><a href="#outfit-Skater">Outfits</a></li>
+                                <li><a href="#trucos-skate">Trick List</a></li>
+                                <li><a href="#">Cultura Skate</a></li>
                             </ul>
                         </nav>
                     </div>

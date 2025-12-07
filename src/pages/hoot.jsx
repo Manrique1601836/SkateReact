@@ -1,49 +1,23 @@
 
 import SkateHoot from "./img/skatehoot.png"
+import Fri2SKate from "./img/dobleSkate.png"
+import CrodSkate from "./img/CrodSkate.png"
+import GirlsSkate from "./img/GirlSkate.png"
 import "./style/hoot.css"
-import PoPShovit from "./media/PoPShovit.mp4"
-import KicKFlip from "./media/kickFlip.mp4"
-import Olli from "./media/Olli.mp4"
+
 
 export default function Hoot(){
     return(
         <div className="hoot">
             <img src={SkateHoot} alt="SkateHoot" className="img-skate-hoot"/>
-            <div className="trucos-skates">
-                <div className="truco">
-                    <video 
-                        src={PoPShovit} 
-                        className="video-hoot" 
-                        controls  // muestra play, pausa, etc.
-                        autoPlay  // empieza solo
-                        loop      // se repite
-                        playbackRate="2.0"
-                    />
-                    <h1>POP SHOVIT</h1>
-                </div>
-                <div className="truco">
-                    <video 
-                        src={KicKFlip} 
-                        className="video-hoot" 
-                        controls  // muestra play, pausa, etc.
-                        autoPlay  // empieza solo
-                        loop      // se repite
-                        playbackRate="2.0"
-                    />
-                    <h1>KICK FLIP</h1>
-                </div>
-                <div className="truco">
-                    <video 
-                        src={Olli} 
-                        className="video-hoot" 
-                        controls  // muestra play, pausa, etc.
-                        autoPlay  // empieza solo
-                        loop      // se repite
-                        playbackRate="2.0"
-                    />
-                    <h1>Olli</h1>
-                </div>
+            <div className="img-subhoot">
+                <img src={Fri2SKate} alt="Fri2SKate" className="img-1"/>
+                <img src={GirlsSkate} alt="GirlsSkate" />
+
             </div>
+            {/* <div className="hoot-text">
+                <p>🛹✨ “El skate es un viaje increíble: disfruta cada caída, aprende de cada truco y celebra cada logro. La tabla no solo rueda, también te enseña.”</p>
+            </div> */}
         </div>
     )
 }

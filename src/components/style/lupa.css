@@ -1,0 +1,22 @@
+
+.lupa{
+    width: 18rem;
+    height: 3rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: silver;
+}
+.lupa input{
+    border: none;
+    background-color: silver;
+    color: black;
+    height: 100%;
+    padding: 0 .5rem;
+}
+.lupa-icon{
+    color: black;
+}
+
