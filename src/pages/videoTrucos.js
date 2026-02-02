@@ -1,8 +1,8 @@
 
 import PoPShovit from "./media/popShovit.mp4";
 import KicKFlip from "./media/kickFlip.mp4";
-import Olli from "./media/Olli.mp4";
-import DobleFlip from "./media/dobleflip.mp4";
+import Olli from "./media/olli.mp4";
+import DobleFlip from "./media/dobleFlip.mp4";
 import PowerSlite from "./media/powerSlite.mp4";
 
 export const videoTrucosSkate = [
