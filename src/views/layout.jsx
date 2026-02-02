@@ -6,7 +6,9 @@ import Hoot from "../pages/hoot"
 import InfoSkate from "../pages/info";
 import Trucos from "../pages/trucos";
 import Outfit from "../pages/Outfit";
-import Setup from "../pages/setup";
+// import Setup from "../pages/setup";
+import Setup from "../pages/setup.jsx";
+import Cultura from "../pages/cultura.jsx";
 
 export default function Layout(){
     return(
@@ -25,6 +27,9 @@ export default function Layout(){
                 </section>
                 <section id="trucos-skate">
                     <Trucos/>
+                </section>
+                <section id="cultura-skate">
+                    <Cultura/>
                 </section>
             </main>
             <Footer/>

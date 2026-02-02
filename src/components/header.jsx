@@ -34,7 +34,7 @@ export default function Navbar(){
                                 <li><a href="#setup-skater">Setup</a></li>
                                 <li><a href="#outfit-Skater">Outfits</a></li>
                                 <li><a href="#trucos-skate">Trick List</a></li>
-                                <li><a href="#">Cultura Skate</a></li>
+                                <li><a href="#cultura-skate">Cultura Skate</a></li>
                             </ul>
                         </nav>
                     </div>

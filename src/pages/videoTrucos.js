@@ -1,5 +1,5 @@
 
-import PoPShovit from "./media/PoPShovit.mp4";
+import PoPShovit from "./media/popShovit.mp4";
 import KicKFlip from "./media/kickFlip.mp4";
 import Olli from "./media/Olli.mp4";
 import DobleFlip from "./media/dobleflip.mp4";

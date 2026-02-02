@@ -19,5 +19,88 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
+
+.outfitskater{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 2rem 0;
+    flex-wrap: wrap;
+}
+.outSkater{
+    width: 100%;
+}
+.outSkater img{
+    width: 100%;
+}
+
+.skater-regular img,
+.skater-goofy img {
+    width: 25rem;
+    height: 30rem;
+}
+.skater-regular{
+    width: 50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem 0;
+}
+
+.skater-goofy{
+    width: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem 0;
+}
+.skater-regular .sk-rg-tto,
+.skater-goofy .sk-gf-tto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.skater-regular .sk-rg-tto .posRegular,
+.skater-goofy .sk-gf-tto .posGoofy{
+    height: 30rem;
+    width: 18rem;
+}
+@media screen and (max-width:1100px) {
+    .outfitskater{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+    .skater-regular{
+        width: 100%;
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 1rem 0;
+    }
+
+    .skater-goofy{
+        width: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 1rem 0;
+    }
+}
+

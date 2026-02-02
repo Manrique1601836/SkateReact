@@ -15,7 +15,7 @@ import { SetupImg } from "./setup"
 import { SetupImgTabla } from "./setup"
 
 export default function Setup(){
-    return(
+    return( 
         <div className="setup">
             <div className="ttl-setup">
                 <h1>Setup de Skater</h1>
